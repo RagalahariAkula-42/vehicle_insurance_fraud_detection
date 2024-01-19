@@ -113,3 +113,132 @@ x==========x]
 [2024-01-19 22:09:03,602: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-01-19 22:22:19,647: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-19 22:22:19,698: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-19 22:22:21,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 22:22:21,117: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 22:22:21,118: INFO: common: created directory at: artifacts]
+[2024-01-19 22:22:21,119: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-19 22:22:21,781: INFO: 2473958874: Data split and balanced successfully.]
+[2024-01-19 22:51:25,109: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-19 22:51:25,110: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-19 22:51:25,948: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-19 22:51:25,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 22:51:25,952: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 22:51:25,954: INFO: common: created directory at: artifacts]
+[2024-01-19 22:51:25,954: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-19 22:51:27,336: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 68996
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e183ebd6a5b61282c4986b78d0fad9592ad3204a2291140e9b19adf0f43414c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F744:1852:6C5BA7:80A3D5:65AA9E32
+Accept-Ranges: bytes
+Date: Fri, 19 Jan 2024 17:21:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10236-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1705684886.577861,VS0,VE295
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1f9486c55eecab74bbe0f9d75d3848c83e7c5e35
+Expires: Fri, 19 Jan 2024 17:26:25 GMT
+Source-Age: 0
+
+]
+[2024-01-19 22:51:27,338: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-19 22:51:27,338: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-19 22:51:27,340: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 22:51:27,342: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 22:51:27,342: INFO: common: created directory at: artifacts]
+[2024-01-19 22:51:27,344: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-19 22:51:27,365: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-19 22:51:27,365: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-19 22:51:27,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 22:51:27,367: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 22:51:27,368: INFO: common: created directory at: artifacts]
+[2024-01-19 22:51:27,368: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-19 22:51:27,700: INFO: data_transformation: Data split and balanced successfully.]
+[2024-01-19 22:51:27,701: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-19 22:56:20,250: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-19 22:56:20,252: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-19 22:56:22,774: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 22:56:22,779: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 22:56:22,781: INFO: common: created directory at: artifacts]
+[2024-01-19 22:56:22,782: INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-19 23:02:16,895: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-19 23:02:16,895: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-19 23:02:17,660: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-19 23:02:17,661: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 23:02:17,663: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 23:02:17,663: INFO: common: created directory at: artifacts]
+[2024-01-19 23:02:17,663: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-19 23:02:18,955: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 68996
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e183ebd6a5b61282c4986b78d0fad9592ad3204a2291140e9b19adf0f43414c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F744:1852:6C5BA7:80A3D5:65AA9E32
+Accept-Ranges: bytes
+Date: Fri, 19 Jan 2024 17:32:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1705685537.207005,VS0,VE311
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6739326edd61d14036532c4efb5f7ed8e2dd6028
+Expires: Fri, 19 Jan 2024 17:37:17 GMT
+Source-Age: 0
+
+]
+[2024-01-19 23:02:18,958: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-19 23:02:18,958: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-19 23:02:18,959: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 23:02:18,962: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 23:02:18,962: INFO: common: created directory at: artifacts]
+[2024-01-19 23:02:18,962: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-19 23:02:18,984: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-19 23:02:18,984: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-19 23:02:18,986: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 23:02:18,987: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 23:02:18,988: INFO: common: created directory at: artifacts]
+[2024-01-19 23:02:18,988: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-19 23:02:19,328: INFO: data_transformation: Data split and balanced successfully.]
+[2024-01-19 23:02:19,329: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-19 23:02:19,329: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-19 23:02:19,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 23:02:19,333: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 23:02:19,333: INFO: common: created directory at: artifacts]
+[2024-01-19 23:02:19,334: INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-19 23:02:19,363: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
