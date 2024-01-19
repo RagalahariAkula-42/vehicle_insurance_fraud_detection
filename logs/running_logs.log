@@ -1,0 +1,66 @@
+[2024-01-19 21:37:15,179: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 21:37:15,181: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 21:37:15,182: INFO: common: created directory at: artifacts]
+[2024-01-19 21:37:15,183: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-19 21:37:18,082: INFO: 2353853782: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 68996
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e183ebd6a5b61282c4986b78d0fad9592ad3204a2291140e9b19adf0f43414c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F744:1852:6C5BA7:80A3D5:65AA9E32
+Accept-Ranges: bytes
+Date: Fri, 19 Jan 2024 16:07:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10234-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705680436.512661,VS0,VE404
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 14711a2cab30a49bcc94eafddcbe5c3bcfd120d0
+Expires: Fri, 19 Jan 2024 16:12:15 GMT
+Source-Age: 0
+
+]
+[2024-01-19 21:46:51,627: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-19 21:46:51,628: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-19 21:46:51,628: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-19 21:46:51,629: INFO: common: created directory at: artifacts]
+[2024-01-19 21:46:51,629: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-19 21:46:53,184: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 68996
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e183ebd6a5b61282c4986b78d0fad9592ad3204a2291140e9b19adf0f43414c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F744:1852:6C5BA7:80A3D5:65AA9E32
+Accept-Ranges: bytes
+Date: Fri, 19 Jan 2024 16:16:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1705681011.305505,VS0,VE370
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 81dcb0add7aebfe843400fb1db1a8491b2aad09b
+Expires: Fri, 19 Jan 2024 16:21:51 GMT
+Source-Age: 0
+
+]
+[2024-01-19 21:46:53,187: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
