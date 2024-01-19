@@ -27,7 +27,7 @@ Welcome to the Vehicle Insurance Fraud Detection project! 🚗🕵️‍♂️
 
 Clone the repository:
    ```bash
-   git clone https://github.com/RagalahariAkula-42/vehicle-insurance-fraud-detection
+   git clone https://github.com/RagalahariAkula-42/vehicle_insurance_fraud_detection
    ```
 Create Conda Environment:
 ```bash
@@ -42,3 +42,21 @@ Run the Application:
 ```bash
 python app.py
 ```
+Open Local Host:
+Open your local host and port to interact with the application.
+
+## MLflow Integration
+For detailed experiment tracking, use MLflow.
+Start MLflow UI with mlflow ui command.
+
+## DAGshub Collaboration
+Utilize DAGshub for enhanced version control.
+Export environment variables for seamless collaboration:
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/RagalahariAkula-42/vehicle_insurance_fraud_detection.mlflow
+export MLFLOW_TRACKING_USERNAME=RagalahariAkula-42
+export MLFLOW_TRACKING_PASSWORD=7ca8771510f6ceac31f9f0fa87bdace49455316c
+```
+## About MLflow
+MLflow ensures production-grade model tracking.
+Log and tag your models for effective monitoring.

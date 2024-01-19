@@ -28,3 +28,12 @@ class ModelTrainerConfig:
     X_test_data_path: Path
     y_test_data_path: Path
     model_name: str
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    X_test_data_path: Path
+    y_test_data_path: Path
+    model_path: Path
+    metric_file_name: Path
+    mlflow_uri: str
